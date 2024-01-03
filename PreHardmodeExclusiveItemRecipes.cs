@@ -2,7 +2,7 @@ using Terraria.ModLoader;
 
 namespace PreHardmodeExclusiveItemRecipes
 {
-	public class PreHardmodeExclusiveItemRecipes : Mod
-	{
-	}
+    public class PreHardmodeExclusiveItemRecipes
+        : Mod
+    { }
 }
