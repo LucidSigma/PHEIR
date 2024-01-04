@@ -1,20 +1,15 @@
-﻿using Terraria.ModLoader;
-using Terraria;
+﻿using Terraria.ID;
+using Terraria.ModLoader;
 
 namespace PreHardmodeExclusiveItemRecipes.Content.Items.Globals
 {
     public class RecipeAdder
         : GlobalItem
     {
-        public override void AddRecipes()
+        public override void SetStaticDefaults()
         {
-            Recipe.Create(Terraria.ID.ItemID.HelFire)
-                .AddCustomShimmerResult(Terraria.ID.ItemID.Cascade)
-                .Register();
-
-            Recipe.Create(Terraria.ID.ItemID.ZapinatorOrange)
-                .AddCustomShimmerResult(Terraria.ID.ItemID.ZapinatorGray)
-                .Register();
+            ItemID.Sets.ShimmerTransformToItem[ItemID.HelFire] = ItemID.Cascade;
+            ItemID.Sets.ShimmerTransformToItem[ItemID.ZapinatorOrange] = ItemID.ZapinatorGray;
         }
     }
 }
