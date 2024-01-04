@@ -1,1 +1,7 @@
-PHEIR is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Pre-hardmode–Exclusive Item Recipes (PHEIR) is tiny mod that adds recipes for items that become unavailable in hardmode.
+
+The mod adds the following recipes:
+• Hel-Fire —> Cascade (shimmer transmutation).
+• Orange Zapinator —> Grey Zapinator (shimmer transmutation).
+
+If there are any pre-hardmode–Exclusive items in major content mods, let me know and I'll add recipes for them.
